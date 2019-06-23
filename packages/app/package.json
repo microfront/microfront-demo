@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "NODE_ENV=development webpack -w"
+  },
+  "keywords": [],
+  "author": "Andreas Sahle <andreas.sahle@gmail.com> (https://pixelmord.de/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/graphql": "^14.0.7",
+    "@types/page": "^1.8.0",
+    "@types/webpack": "^4.4.26",
+    "parcel": "^1.12.2",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@microfront/client-controller": "^0.1.0",
+    "@microfront/graphql-client": "^0.1.0",
+    "@microfront/layout-router": "^0.1.1",
+    "awesome-typescript-loader": "^5.2.1",
+    "page": "^1.11.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
